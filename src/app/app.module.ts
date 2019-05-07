@@ -8,10 +8,12 @@ import {
 FormsModule,
   ReactiveFormsModule
  } from '@angular/forms';
+import { SongListComponent } from './song-list/song-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SongListComponent
   ],
   imports: [
     BrowserModule,

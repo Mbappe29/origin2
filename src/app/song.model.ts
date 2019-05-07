@@ -7,7 +7,8 @@ export class Song
         public data_uscita: Date,
         public durata : number,
         public title : String,
-    
+
     ) {}
-    
+
+
 }

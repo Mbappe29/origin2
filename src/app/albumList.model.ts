@@ -6,4 +6,5 @@ export const AlbumList : Album[] =
     {title:"Lateralus", id: 1, artista : "Tool", durata:78},
     {title:"Vespertine", id: 2, artista : "Bjork", durata:55},
     {title:"Shaodws of the sun", id: 3, artista : "Ulver", durata:40},
+    {title:"Shaodws of the moon", id: 4, artista : "AlberoBello", durata:42},
 ]

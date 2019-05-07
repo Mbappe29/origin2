@@ -7,7 +7,6 @@
     <select (change)=onChange($event.target.value)>
       <option [value]="album.id" *ngFor="let album of albums"> {{album.title}}</option>
     </select> <br>
-
     titolo: <input #t> <br>
     durata : <input #l> <br>
     data pubblicazione: <input type = "date" #d> <br>
@@ -23,8 +22,8 @@
    <li *ngFor="let song of songList">
     {{song.album.title}} : {{song | json}}
    </li>
- </ul> 
- 
+ </ul>
+
 
  {{songList | json}}
 
