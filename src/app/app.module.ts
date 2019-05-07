@@ -9,11 +9,13 @@ FormsModule,
   ReactiveFormsModule
  } from '@angular/forms';
 import { SongListComponent } from './song-list/song-list.component';
+import { DettagliComponent } from './dettagli/dettagli.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SongListComponent
+    SongListComponent,
+    DettagliComponent
   ],
   imports: [
     BrowserModule,
